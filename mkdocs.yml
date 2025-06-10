@@ -1,0 +1,96 @@
+site_name: YANAP
+
+theme:
+  name: 'material'
+  font: false
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: indigo
+      accent: pink
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: green
+      accent: deep orange    
+
+  features:
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - content.code.annotate
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.extra
+  - pymdownx.tilde
+
+nav:
+    - Read before Start:
+      - Welcome to YANAP: index.md
+      - Pay & Get: payfor.md
+      - Keep Everything in Good Shape: in.good.shape.md
+    - Los!:
+      - Kabel Verbinden: cable.md
+      - Infomartionen für Konfiguration: info.config.md
+      - Konfiguration deines Router:
+        - Allgemein: in.general.md
+        - Fritz!Box: firtzbox.md
+        - Asus: asus.md
+        - Vodafone Station: vodafone.station.md
+    - Blokieren:
+        - Features at a Glance: feature.glance.md
+        - Misblocking: misblocking.md
+        - Customize Block Rule: cbr.md
+    - Extender Reading: extender.md
+    - Help Me!: support.md
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: de
+          name: Deutsch
+          build: true
+          default: true
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+             Read before Start: Read before Start
+             Welcome to YANAP: Welcome to YANAP
+             Pay & Get: Pay & Get
+             Keep Everything in Good Shape: Keep Everything in Good Shape
+             Los!: Let's Start!
+             Kabel Verbinden: Connect the Cables
+             Infomartionen für Konfiguration: Information for Configuration
+             Konfiguration deines Router: Configure Your Router
+             Allgemein: In General
+             Fritz!Box: Fritz!Box
+             Asus: Asus
+             Vodafone Station: Vodafone Station
+             Blokieren: Block
+             Features at a Glance: Features at a Glance
+             Misblocking: Misblocking
+             Customize Block Rule: Customize Block Rule
+             Extender Reading: Extender Reading
+             Help Me!: Help Me!
