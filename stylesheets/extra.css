@@ -30,7 +30,9 @@ h1, h2, h3 {
     --md-typeset-a-color: #43A047 !important;
 }
 
-
+.md-tabs__item--active .md-tabs__link {
+    font-weight: 500 !important;
+}
 
 @font-face {
   font-family: 'Raleway';
