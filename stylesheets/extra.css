@@ -1,0 +1,64 @@
+h1, h2, h3 {
+  font-weight: bold !important;
+}
+
+.md-typeset code {
+    font-size: 1.0em !important;
+}
+
+:root, [data-md-color-scheme=default] {
+  --md-code-bg-color: #F0F0F0 !important;
+}
+
+:root, [data-md-color-scheme=slate] {
+  --md-code-bg-color: #263238 !important;
+}
+
+
+.md-typeset .admonition,
+.md-typeset details {
+  font-size: 0.75rem !important;
+}
+
+.md-typeset .footnote-ref
+ {
+    font-size: 1em !important;
+}
+
+
+:root, [data-md-color-primary=white] {
+    --md-typeset-a-color: #43A047 !important;
+}
+
+
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* Variable font weight range */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../fonts/Inconsolata-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+/* Use Raleway for body text */
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Use Inconsolata for code blocks and monospace text */
+code, pre, tt {
+  font-family: 'Inconsolata', monospace;
+}
