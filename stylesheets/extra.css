@@ -38,8 +38,17 @@ h1, h2, h3 {
     background-color: #4cae4f !important;
 }
 
+.timer-start {
+  color: #FF6D00;
+}
 
+.timer-done {
+  color: #4cae4f;
+}
 
+.highlight-red {
+  color: #ff1744;
+}
 
 @font-face {
   font-family: 'Raleway';
