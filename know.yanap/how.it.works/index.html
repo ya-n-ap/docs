@@ -666,9 +666,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#default-internet-access-flow" class="md-nav__link">
+  <a href="#internet-access-flow-without-dns-based-blocker" class="md-nav__link">
     <span class="md-ellipsis">
-      Default Internet Access Flow
+      Internet Access Flow without DNS-Based Blocker
     </span>
   </a>
   
@@ -1402,9 +1402,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#default-internet-access-flow" class="md-nav__link">
+  <a href="#internet-access-flow-without-dns-based-blocker" class="md-nav__link">
     <span class="md-ellipsis">
-      Default Internet Access Flow
+      Internet Access Flow without DNS-Based Blocker
     </span>
   </a>
   
@@ -1449,7 +1449,7 @@
 <p><abbr title="A free and open source software used in YANAP that blocks unwanted content, such as ads and trackers.">AdGuard Home</abbr> is a <abbr title="Domain Name System. The system that translates website names (like www.linuxfoundation.org) into IP addresses that computers can understand.">DNS</abbr>-based network security tool that protects your local network using a set of filters. It evaluates all online requests, allowing safe connections while blocking potentially harmful or unwanted ones.</p>
 <hr />
 <p><br></p>
-<h2 id="default-internet-access-flow">Default Internet Access Flow</h2>
+<h2 id="internet-access-flow-without-dns-based-blocker">Internet Access Flow <code>without</code> <abbr title="Domain Name System. The system that translates website names (like www.linuxfoundation.org) into IP addresses that computers can understand.">DNS</abbr>-Based Blocker</h2>
 <p>If you have never touched your <abbr title="Domain Name System. The system that translates website names (like www.linuxfoundation.org) into IP addresses that computers can understand.">DNS</abbr> configuration in your <abbr title="Local Area Network that connects devices in a small area, like your home or office.">LAN</abbr> environment, then your situation is similar to the diagram below.</p>
 <div class="admonition quote">
 <p>Think of <abbr title="Domain Name System. The system that translates website names (like www.linuxfoundation.org) into IP addresses that computers can understand.">DNS</abbr> like the internet's address book. When you do anything online, the first step is your device asking a <abbr title="Domain Name System. The system that translates website names (like www.linuxfoundation.org) into IP addresses that computers can understand.">DNS</abbr> server where to go.</p>
@@ -1473,7 +1473,7 @@
 </ul>
 <p>These points don't cover every possible risk, but they do show some common ones.</p>
 <p><br></p>
-<h2 id="internet-access-flow-with-dns-based-blocker">Internet Access Flow with <abbr title="Domain Name System. The system that translates website names (like www.linuxfoundation.org) into IP addresses that computers can understand.">DNS</abbr>-Based Blocker</h2>
+<h2 id="internet-access-flow-with-dns-based-blocker">Internet Access Flow <code>with</code> <abbr title="Domain Name System. The system that translates website names (like www.linuxfoundation.org) into IP addresses that computers can understand.">DNS</abbr>-Based Blocker</h2>
 <p>The <strong><abbr title="A free and open source software used in YANAP that blocks unwanted content, such as ads and trackers.">AdGuard Home</abbr></strong> I'm using in <abbr title="You Are Not A Product.">YANAP</abbr> is not the only <abbr title="Domain Name System. The system that translates website names (like www.linuxfoundation.org) into IP addresses that computers can understand.">DNS</abbr>-based blocker out there. There are other <abbr title="Free and Open Source Software. Open Source refers to software or code that is freely available for anyone to view, modify, and distribute, allowing a community of developers to collaborate, improve, and customize the software, promoting transparency, flexibility, and innovation.">FOSS</abbr> options that offer similar features, such as <a href="https://pi-hole.net/">Pi-Hole</a>, <a href="https://technitium.com/dns/">Technitium</a>, and others. With these <abbr title="Domain Name System. The system that translates website names (like www.linuxfoundation.org) into IP addresses that computers can understand.">DNS</abbr> filters or blockers, your internet access work like the diagrams 3 and 4.</p>
 <p><a class="glightbox" href="/docs/images/agh_dns.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Internet Access Flow with DNS-Based Blocker" src="/docs/images/agh_dns.png" /></a>
 <span style="font-size: 14px; font-style: italic;">Diagram 3 — Illustrative sketch of the internet access flow with <abbr title="Domain Name System. The system that translates website names (like www.linuxfoundation.org) into IP addresses that computers can understand.">DNS</abbr>-Based Blocker&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;Drawing with <a href="https://plus.excalidraw.com/">Excalidraw</a>.&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;Click the image to enlarge.</span></p>
@@ -1485,7 +1485,7 @@
   D --&gt; |Yes ➋ send **0.0.0.0 - Not Found** to| A;
   A --&gt; C{Got Real IP?};
   C --&gt;|Yes ➌ connect to| E[Content / App Servers];
-  C --&gt;|No ➌ drop into| F[BlackHole];</code></pre>
+  C --&gt;|No ➌ drop into| F[Dustbin];</code></pre>
 <span style="font-size: 14px; font-style: italic;">Diagram 4 — Flowchart of the internet access flow with <abbr title="Domain Name System. The system that translates website names (like www.linuxfoundation.org) into IP addresses that computers can understand.">DNS</abbr>-Based Blocker</span></p>
 <p>In this way, you regain <del class="critic">all</del> <ins class="critic">some</ins> control over your internet traffic.</p>
 <p><br></p>
