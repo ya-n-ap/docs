@@ -1,0 +1,75 @@
+---
+icon: material/currency-eur
+---
+
+# Where Your Money Goes
+> This project isn't about making money. I'm doing my best to be as transparent as possible with the costs and keep your price as low as I can.
+
+## Pricing Logic
+Here's the thinking behind the price:
+
+1. **Cover the basics** -- hardware and all the direct costs.
+1. **Prepare for possible extra costs** -- for example, tax-related expenses (if they come up), or the cost of acquiring, maintaining, or replacing the test units I use for development and debugging.
+1. **Experiment a little** -- give me room to try new ideas for improvements.
+1. **Give back** -- to support the FOSS that this project relies on, a portion of the money will be donated to them. (More details on how this is done will be shared after the project has been running for a while and once there's a clearer picture of actual ongoing costs.)
+
+<br>
+## Hardware & Direct Cost (updated: 2026-02-19)
+
+| Item                 | Model / Product                                                                                                                                                              | Price (€)   | Source                    |
+|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------:|:---------------------------:|
+| SBC                  | Radxa Zero 3E                                                                                                                                                      | ~~21 ~ 23~~ Inventory        | CN                        |
+| Micro SD Card        | Samsung Endurance 32G                                                                                                                                              | 9 ~ 10        | DE                        |
+| 3D Printed Case      | Shared by `user_1558449770`[^1], `Nenter`[^2] | 7           | Printed in DE             |
+| Ethernet Cable | 0.25~0.3m                                                                                                                                                          | 1           | DE                        |
+| Power Supply         | USB Type-C, 15 ~ 20W                                                                                                                                                     | 6 ~ 8         | CN, DE                    |
+| Packaging Material              |                                                                                                                                                                    | < 0.40        | DE                        |
+| Shipping             | Maxibrief                                                                                                                                                          | 2.90         | DE                        |
+| Platform Fee         | Payment, Listing etc.: 3%~7%                                                                                                                                       |             | DE                        |
+|                      | **————— Summery[^3] —————**                                                                                                                                            |             |                           |
+| without              | Power Supply                                                                                                                                                       | 41.30 ~ 44.30 |  |
+| with                 | Power Supply                                                                                                                                                       | 47.30 ~ 52.30 |  |
+
+> <span style="font-size: 16px;">If you spot any better deals, [let me know](/docs/support/contact).</span>
+
+<br>
+## Pricing
+To cover points 2 ~ 4 above, I add around 10€ to the higher end of direct costs:
+
+<div class="grid cards" markdown>
+  - :material-power-plug-off:{ .lg } __without Power Supply__
+
+    ---
+
+    `44.30`€ + about `10.00`€ = `54.00`€
+
+  - :material-power-plug:{ .lg } **with Power Supply**
+
+    ---
+
+    `52.30`€ + about `10.00`€ = `62.00`€
+</div>
+
+!!! abstract "A Few Notes"
+      - Platform fees aren't included in the prices above. It depends on which platform you choose.
+      - Prices may go up or down depending on the hardware market. I'll make adjustments as fairly as I can.
+      - MicroSD cards and 3D printed cases are consumables. Their lifespan depends heavily on how and where they're used. In normal conditions, they'll usually last for a few years. But in more extreme environments (like in very hot or sunny places), they might fail much sooner - even within a few months. To give them the best chance, I've chosen endurance-grade cards and sturdy printing materials, balancing durability and cost.
+ 
+          As long as you use it in the proper environment, there's no need to be overly concerned. Even if they break, the replacement costs are not too expensive.
+
+     - Since the price is already set as close to the actual cost as possible, I'm not able to cover shipping if you ever need to return or replace something. That's one of the trade-offs for keeping things affordable.
+
+<br>
+## I Won't Run Any Ads. { .highlight-red }
+
+- First, ads cost money, and that cost is passed on to you.
+- More importantly, showing ads would go directly against what YANAP is for. It wouldn't make sense to do the opposite just to fund it.
+
+
+!!! danger "Request"
+    If you think YANAP is worth using, the best support you can give is simply telling someone else about it. That could be your family, a friend, someone you work or study with, or anyone who might find it useful.
+    
+<br>
+[^1]: [Radxa Zero 3E enclosure](https://makerworld.com/en/models/841337-radxa-zero-3e-enclosure#profileId-787584) by [user_1558449770](https://makerworld.com/en/@user_1558449770) is licensed under the [ CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+[^2]: [Radxa Zero3E case](https://www.thingiverse.com/thing:6673104) by [Nenter](https://www.thingiverse.com/nenter/designs) is licensed under the [ CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+[^3]: Platform Fee not Included
